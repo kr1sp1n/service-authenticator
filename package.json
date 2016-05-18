@@ -1,0 +1,32 @@
+{
+  "name": "service-authenticator",
+  "version": "0.0.1",
+  "description": "MFA as a service",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kr1sp1n/service-authenticator.git"
+  },
+  "keywords": [
+    "mfa",
+    "totp",
+    "authenticator",
+    "2fa",
+    "service"
+  ],
+  "author": "kr1sp1n <krispin@posteo.de> (http://kr1sp1n.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/service-authenticator/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/service-authenticator#readme",
+  "dependencies": {
+    "authenticator": "1.1.2",
+    "body-parser": "1.15.1",
+    "express": "4.13.4"
+  }
+}
